@@ -1,0 +1,25 @@
+body {
+	display: flex;
+	align-items: center;
+}
+
+.page {
+	text-align: center;
+	margin: auto;
+	margin-top: 60px;
+	border: 1px solid green;
+	font-family: Courier;
+	background: linear-gradient(50deg, blue, yellow);
+	padding: 80px;
+	box-shadow: -10px -7px 27px 1px red;
+}
+h1 {
+	color: #E4DFDA;
+	margin-top: 0px;
+}
+button {
+	font-size: 0.9em;
+	border-radius: 6px;
+	background: linear-gradient(90deg, green, orange);
+	border: 3px solid green;
+}
