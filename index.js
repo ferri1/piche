@@ -3,19 +3,20 @@ function convertirEnEuros() {
   let monnaie2 = (monnaie1 * 1.15);
   return monnaie2;
 }
-document.querySelector('.btn1').addEventListener('click', function() {
+document.querySelector('.btn2').addEventListener('click', function() {
   let resultat = convertirEnEuros();
-  document.querySelctor('.champ2').value = resulat;
-
+  document.querySelector('.champ2').value = resultat;
 });
 
+
+
 function convertirEnLivres() {
-  let monnaie1 = document.querySelector('.champ1').value;
-  let monnaie2 = (monnaie1 / 1.15);
-  return monnaie2;
+  let monnaie2 = document.querySelector('.champ2').value;
+  let monnaie1 = (monnaie2 / 1.15);
+  return monnaie1;
 }
 
-document.querySelector('.btn2').addEventListener('click', function() {
+document.querySelector('.btn1').addEventListener('click', function() {
   let resultat = convertirEnLivres();
-  document.querySelector('.champ2').value = resultat;
+  document.querySelector('.champ1').value = resultat;
 });
